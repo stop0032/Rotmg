@@ -1,0 +1,55 @@
+h1 {
+	color: red;
+	font-style: 25pt;
+	font-family: Impact;
+}
+
+.Main {
+	background-color: #C8C8C8;
+	width: 700px;
+	position: absolute;
+	left: 225px;
+	border-left: thin solid #000000;
+	border-right: thin solid #000000;
+}
+
+body {
+	background: url('Background.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p, h1, h2, h3, h4, h5, ul, li, table {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.Border table tr {
+	padding: 5px;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid#000000;
+}
+
+.Border table th {
+	padding: 5px;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid#000000;
+}
+
+.Border table td {
+	padding: 5px;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid#000000;
+}
